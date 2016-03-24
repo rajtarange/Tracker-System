@@ -12,7 +12,6 @@ public class DemoController
 	@RequestMapping(value="/demo")
 	public String getScreen()
 	{
-		System.out.println("in demoo");
 		logger.info("In Demo Controller");
 		return "login";
 	}
