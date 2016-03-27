@@ -14,6 +14,7 @@ public class DemoController
 	{
 		System.out.println("in demoo");
 		logger.info("In Demo Controller");
+		System.out.println("hiiii");
 		return "login";
 	}
 }
