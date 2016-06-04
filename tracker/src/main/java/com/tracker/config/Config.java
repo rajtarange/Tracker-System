@@ -17,6 +17,7 @@ public class Config
     @Bean  
     public UrlBasedViewResolver setupViewResolver() 
     {  
+    	//changes by sumit
         UrlBasedViewResolver resolver = new UrlBasedViewResolver();  
         resolver.setPrefix("/WEB-INF/views/");  
         resolver.setSuffix(".jsp");  
